@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".numberverifyActivity2">
+
+    <ImageButton
+        android:id="@+id/backbutton2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/left1" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Number Plate Verification"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="10dp" />
+
+    <EditText
+        android:id="@+id/numbertext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Vehicle No"
+        android:background="#EFE8E8"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/vehiclebtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Verify Vehicle"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="#EFE8E8"
+        android:padding="16dp"
+        android:layout_marginTop="30dp"
+         />
+
+
+
+
+
+
+</LinearLayout>

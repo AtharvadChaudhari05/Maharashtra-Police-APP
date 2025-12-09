@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mahatrafficbg"
+    tools:context=".callActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#000E4D">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Contact Us"
+                android:textColor="#F2F4FA"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/mp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="#E7D5D5"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Choose police Station"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginTop="-130dp"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="8419986969"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:background="#9EA6EB"
+        />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:background="#E7D5D5"
+        android:layout_gravity="center"
+        />
+
+
+
+    <ImageView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:src="@drawable/call"
+          android:layout_gravity="center"
+          android:background="@color/white"
+          android:layout_marginTop="-130dp"/>
+
+    <TextView
+        android:id="@+id/phone1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text=""
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:background="#9EA6EB"
+        />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#E7D5D5"
+        >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/email"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+
+            />
+
+        <TextView
+            android:id="@+id/email1"
+            android:layout_width="300dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:text=""
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="#9EA6EB"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

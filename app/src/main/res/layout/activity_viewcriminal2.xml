@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundgradient"
+    tools:context=".viewcriminalActivity2">
+
+
+    <ImageButton
+        android:id="@+id/imgbutton1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/left1" />
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Criminal"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:layout_marginTop="-48dp"
+        android:textColor="@color/black"
+        android:paddingBottom="20dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/name1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Sai Daine"
+                android:textSize="16sp"
+                android:background="#EFE8E8"
+                android:enabled="false"
+                android:padding="10dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crime Type"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/crimetype1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Murder"
+                android:textSize="16sp"
+                android:background="#EFE8E8"
+                android:enabled="false"
+                android:padding="10dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crime Date"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/crimedate1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="10/07/2025"
+                android:textSize="16sp"
+                android:background="#EFE8E8"
+                android:enabled="false"
+                android:padding="10dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/details1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Today 12/07/2025.. Murder case during playing custom Free Fire 1vs1 with friend Harish Pimplakar, with knife killed his head."
+                android:textSize="16sp"
+                android:background="#EFE8E8"
+                android:padding="10dp"
+                android:gravity="start"
+                android:enabled="false"
+                android:textColor="@color/black" />
+
+
+            <Button
+                android:id="@+id/editbutton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp" />
+
+
+            <Button
+                android:id="@+id/savebutton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Save"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

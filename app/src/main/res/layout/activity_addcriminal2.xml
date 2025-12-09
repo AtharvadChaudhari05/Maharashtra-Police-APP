@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/iconsgradient"
+    tools:context=".addcriminalActivity2">
+
+
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/left12"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Criminal"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:paddingBottom="20dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/nametextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/nameet"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter Name"
+                android:background="#EFE8E8"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/crimetypetextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crime Type"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp" />
+
+            <Spinner
+                android:id="@+id/crimetypec"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/crimedatetextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crime Date"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp" />
+
+            <DatePicker
+                android:id="@+id/date2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:datePickerMode="spinner"
+                android:startYear="2025"
+                android:padding="10dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/detailstextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp" />
+
+            <EditText
+                android:id="@+id/details2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:hint="Enter details"
+                android:inputType="textMultiLine"
+                android:gravity="top|start"
+                android:background="#EFE8E8"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:backgroundTint="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:padding="10dp" />
+
+</LinearLayout>

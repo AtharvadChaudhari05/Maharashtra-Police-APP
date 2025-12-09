@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/iconsgradient"
+    tools:context=".ProfileActivity2">
+
+
+    <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MAHARASHTRA POLICE"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:paddingBottom="20dp" />
+
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+            android:paddingBottom="20dp" />
+
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Officer Name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/officername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Officer Name"
+            android:inputType="text"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:enabled="false"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/edit_text" />
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rank"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp" />
+
+        <Spinner
+            android:id="@+id/rankspinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:enabled="false"
+            />
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Police Station"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp" />
+
+        <Spinner
+            android:id="@+id/policestationspinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:enabled="false"
+            android:textColor="@color/black"/>
+
+
+        <Button
+            android:id="@+id/savebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp" />
+
+
+
+
+        <Button
+            android:id="@+id/editbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile"
+            android:layout_marginLeft="10dp"
+                />
+
+        <Button
+            android:id="@+id/logoutbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="10dp"
+            android:text="Logout" />
+        </LinearLayout>
+

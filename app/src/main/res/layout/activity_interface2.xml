@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgradient"
+    android:orientation="vertical"
+    tools:context=".interfaceActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D4AF37"
+        >
+
+        <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/mp"
+        android:layout_marginLeft="10dp"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="WELCOME!"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/userTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="MAHARASHTRA POLICE"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/police"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/police" />
+
+        </FrameLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:padding="16dp"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="194dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageButton
+                            android:id="@+id/criminalbutton"
+                            android:layout_width="150dp"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/bordericon"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/ab"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_width="194dp"
+                        android:padding="16dp">
+
+
+                        <ImageButton
+                            android:id="@+id/viewcriminalbutton"
+                            android:layout_width="150dp"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/bordericon"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/viewcriminal"
+
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+                    </LinearLayout>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="194dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <ImageButton
+                            android:id="@+id/addfirbutton"
+                            android:layout_width="150dp"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/bordericon"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/addfir"
+
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        >
+
+                        <ImageButton
+                            android:id="@+id/viewfirbutton"
+                            android:layout_width="150dp"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/bordericon"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/viewfir"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="194dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        >
+
+                        <ImageButton
+                            android:id="@+id/trafficfinebutton"
+                            android:layout_width="150dp"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/bordericon"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/trafficfine"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        >
+
+                        <ImageButton
+                            android:id="@+id/crimemapaccessbutton"
+                            android:layout_width="150dp"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/bordericon"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/crimemap"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        >
+
+                        <ImageButton
+                            android:id="@+id/numberplatebutton"
+                            android:layout_width="150dp"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
+                            android:scaleType="fitXY"
+                            android:background="@drawable/bordericon"
+                            android:src="@drawable/numberplate"
+
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        >
+
+                        <ImageButton
+                            android:id="@+id/rtoofficebutton"
+                            android:layout_width="150dp"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
+                            android:scaleType="fitXY"
+                            android:background="@drawable/bordericon"
+                            android:src="@drawable/rtolocator"
+                             />
+
+
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        >
+
+                        <ImageButton
+                            android:id="@+id/stolenvehiclebutton"
+                            android:layout_width="150dp"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
+                            android:scaleType="fitXY"
+                            android:background="@drawable/bordericon"
+                            app:srcCompat="@drawable/addstolen"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        >
+
+                        <ImageButton
+                            android:id="@+id/viewstolenbutton"
+                            android:layout_width="150dp"
+                            android:layout_height="130dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/bordericon"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/viewstolen" />
+
+
+                    </LinearLayout>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/footer">
+
+
+    </include>
+
+
+
+</LinearLayout>

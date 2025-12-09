@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundgradient"
+    tools:context=".viewFirActivity2">
+
+
+    <ImageButton
+        android:id="@+id/imgbutton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/left1" />
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View FIR"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="-44dp"
+        android:paddingBottom="20dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:id="@+id/complainttextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Complaint Name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/complaintnameedittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sai daine"
+                android:textSize="16sp"
+                android:background="#EFE8E8"
+                android:padding="10dp"
+                android:enabled="false"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/datetextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/dateedittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12/04/2007"
+                android:background="#EFE8E8"
+                android:textColor="@color/black"
+                android:enabled="false"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/crimetextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crime Type"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/crimeedittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="murder"
+                android:background="#EFE8E8"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:enabled="false"
+                android:padding="10dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/locationtextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/locationedittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="abc"
+                android:enabled="false"
+                android:textSize="16sp"
+                android:background="#EFE8E8"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/subareaa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SubArea"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/subareaaet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textSize="16sp"
+                android:text="abc"
+                android:background="#EFE8E8"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/locationtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Address"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/locationet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:textSize="16sp"
+                android:background="#EFE8E8"
+                android:text="abc"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/suspectnametextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suspect Name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/suspectnameedittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Raju Beta"
+                android:background="#EFE8E8"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:enabled="false"
+                android:padding="10dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/descriptiontextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/descriptionedittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Free fire khelun suicide"
+                android:background="#EFE8E8"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:enabled="false"
+                android:padding="10dp"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/editbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center" />
+
+            <Button
+                android:id="@+id/savebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Save"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ImageButton
+        android:id="@+id/downloadbtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/download1"
+        android:scaleType="fitXY"
+        android:layout_gravity="end"
+        android:layout_margin="16dp" />
+</LinearLayout>

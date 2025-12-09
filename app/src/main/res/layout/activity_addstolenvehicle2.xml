@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/iconsgradient"
+    tools:context=".addstolenvehicleActivity2">
+
+
+    <ImageButton
+        android:id="@+id/backbutton1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/left1" />
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Stolen Vehicle Records"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        android:paddingBottom="16dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vehicle Number"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/vehiclenumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#EFE8E8"
+                android:text=""
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Owner Name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/ownername"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#EFE8E8"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text=""
+                android:padding="10dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Seen"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/lastseen"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#EFE8E8"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:text=""
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/description1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#EFE8E8"
+                android:textSize="16sp"
+                android:text=""
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"
+                android:gravity="top"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/submitbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Submit"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

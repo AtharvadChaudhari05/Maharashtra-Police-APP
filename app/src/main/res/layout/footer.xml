@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/fotterradius">
+
+
+
+
+        <ImageView
+            android:id="@+id/profileBtn"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/dp"
+            android:scaleType="centerInside"
+
+            />
+        <ImageView
+            android:id="@+id/call"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/call"
+            android:scaleType="centerInside"
+            />
+        <ImageView
+            android:id="@+id/noticeBtn"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/bell"
+            android:scaleType="centerInside"/>
+
+</LinearLayout>
+

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/iconsgradient"
+    tools:context=".addfirActivity2">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/left1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register FIR"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="-44dp"
+        android:paddingBottom="20dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Complaint Name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/cname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#EFE8E8"
+                android:hint="Enter name"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:inputType="textPersonName"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <DatePicker
+                android:id="@+id/date1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:datePickerMode="spinner"
+                android:startYear="2025"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crime Type"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/crimetype2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <Spinner
+                android:id="@+id/splocation"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter location"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/subArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sub Area"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp"
+                />
+
+
+
+
+            <Spinner
+                android:id="@+id/subAreaSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Address"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp"
+                />
+
+            <EditText
+                android:id="@+id/adress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter Proper address"
+                android:background="#EFE8E8"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:inputType="textPersonName" />
+
+
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suspect Name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/etsuspectname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter suspect name"
+                android:background="#EFE8E8"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="12dp" />
+
+            <EditText
+                android:id="@+id/etdescription"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Enter FIR description"
+                android:inputType="textMultiLine"
+                android:gravity="top|start"
+                android:background="#EFE8E8"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/submitbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

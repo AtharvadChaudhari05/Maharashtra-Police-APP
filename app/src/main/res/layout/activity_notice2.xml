@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundgradient"
+
+    tools:context=".noticeActivity2">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:text="Important Rules"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:lines="7"
+                android:text="Criminal Law – IPC (Indian Penal Code)\n Law	                        Section	                       Description\n
+Murder	                   IPC 302	                Punishment for murder\n
+Theft	                      IPC 379	                Punishment for theft\n
+Rape	                       IPC 376	                 Punishment for rape\n
+Assault	                  IPC 351 / 352	     Physical violence threat\n
+Dowry Death	          IPC 304B	                Dowry-related death\n
+Kidnapping	             IPC 363	             Taking someone illegally\n"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:lines="8"
+                android:text="Traffic Rules – MV Act (Motor Vehicles Act)\n
+Rule	                                                         Penalty\n
+No helmet (bike)	                                   ₹500 fine\n
+Triple seat on bike	                                ₹1,000 fine\n
+Signal jump	                                            ₹1,000 fine\n
+Drunk Driving	                                        ₹10,000 fine or jail\n
+Driving without license	                         ₹5,000 fine\n
+Rash driving	                                         ₹5,000 fine + seizure"
+
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:text="Cyber Crime Rules – IT Act\n
+Violation	                                                      Section\n
+Online Fraud / Hacking	                            Section 66\n
+Obscene content	                                       Section 67\n
+Cyberstalking	                                Section 66E, 354D IPC\n
+Identity Theft	                                            Section 66C\n
+Data Theft / Leakage	                                 Section 72"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:lines="8"
+                android:text="Social Laws and Citizen Safety\n
+Law / Regulation	                                Purpose\n
+POCSO Act	                       Protect children from sexual abuse\n
+Domestic Violence Act	   Safety of women from family abuse\n
+Dowry Prohibition Act	            Ban dowry and harassment\n
+Maharashtra Police Act,         Police powers and citizen protection\n"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:text="abcd"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>
